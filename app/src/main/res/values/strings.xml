@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coordinatortablayout</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base_transparent_bar2">BaseTransparentBar2Activity</string>
+    <string name="large_text">本文总结了CollapsingToolbarLayout在Android5.0+上的用法，涉及到CollapsingToolbarLayout的概念和使用技巧，现在整理出来分享给广大的Android程序员兄弟们。需要时可以参考下。
+
+CollapsingToolbarLayout作用是提供了一个可以折叠的Toolbar，它继承至FrameLayout，给它设置layout_scrollFlags，它可以控制包含在CollapsingToolbarLayout中的控件(如：ImageView、Toolbar)在响应layout_behavior事件时作出相应的scrollFlags滚动事件(移除屏幕或固定在屏幕顶端)，layout_collapseMode (折叠模式) - 有两个值:layout_collapseParallaxMultiplier(视差因子) - 设置视差滚动因子，值为：0~1。
+pin -  设置为这个模式时，当CollapsingToolbarLayout完全收缩后，Toolbar还可以保留在屏幕上。
+parallax - 设置为这个模式时，在内容滚动时，CollapsingToolbarLayout中的View（比如ImageView)也可以同时滚动，实现视差滚动效果，通常和layout_collapseParallaxMultiplier(设置视差因子)搭配使用。
+</string>
+</resources>

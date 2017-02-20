@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_meterial_design"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btn_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="toolbar作为标题栏并使状态栏透明"/>
+            <Button
+                android:id="@+id/btn_toolbar_attributes"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="toolbar作的一些常用属性"/>
+            <Button
+                android:id="@+id/btn_toolbar_custom"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="自定义toolbar标题栏"/>
+            <Button
+                android:id="@+id/btn_coordication"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="CoordicatorLayout与AppBarLayout的使用"/>
+            <Button
+                android:id="@+id/btn_textinput"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="TextIputLayput与TextIpurEdit的使用"/>
+
+            <Button
+                android:id="@+id/btn_floatactionbutton"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="FloatingActionButton的使用"/>
+            <Button
+                android:id="@+id/btn_cardview"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="CardView的使用"/>
+            <Button
+                android:id="@+id/btn_CollapsingToolBarLayout"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:text="CollapsingToolBarLayout的使用"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
